@@ -1,5 +1,11 @@
-const Result = () => {
-  return <div className="bg-gray-70 p-2 rounded-md shadow-sm">Result</div>;
+const Result = ({ result }) => {
+  return <div className="bg-gray-50 p-2 rounded-md shadow-sm">{result}</div>;
 };
 
 export default Result;
+
+/*const Result = ({ result }) => {
+  return <div className="bg-gray-50 p-2 rounded-md shadow-sm">{result}</div>;
+};
+
+export default Result;*/
